@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Application form</title>
+	<link rel = "stylesheet" type = "text/css"  href = "applicants.css"/>
+</head>
+<body>
+ <form class="signup" action="#" method="post">
+  <div class="signup__headfoot signup__headfoot--header">
+  <h1 class="no-margin">Apply For Practical training</h1>
+  <p>Fill the Form below with your important Details</p>
+  </div>
+  <div class="signup__frame">
+    <fieldset class="signup__fieldset">
+      <legend class="signup__legend"><span class="signup__legend--number">1</span> Name & Address</legend>
+      <div class="signup__fieldset__field">
+        <label class="signup__label" for="name">Full Name</label>
+        <input class="signup__input signup__field--margin" type="text" id="name" name"user_name"/>
+        <label class="signup__label" for="adresse">Home Location</label>
+        <input class="signup__input" type="text" id="addresse" name="user_addresse"/>
+      </div>
+    </fieldset>
+
+    <fieldset class="signup__fieldset">
+      <legend class="signup__legend"><span class="signup__legend--number">2</span> Email & Phone</legend>
+      <div class="signup__fieldset__field">
+        <label class="signup__label" for="mail">Email</label>
+        <input class="signup__input signup__field--margin" type="email" id="mail" name"user_mail"/>
+        <label class="signup__label" for="phone">Phone Number</label>
+        <input class="signup__input" type="tel" id="phone" name="user_phone"/>
+      </div>
+    </fieldset>
+
+    <fieldset class="signup__fieldset">
+      <legend class="signup__legend"><span class="signup__legend--number">3</span>Institution Details.</legend>
+      <div class="signup__fieldset__field">
+      	<label class="signup__label" for="pw2">Name of your Institution.</label>
+        <input class="signup__input" type="password" id="pw2" name="user_pw"/>
+        <label class="signup__label" for="pw1">Registration number</label>
+        <input class="signup__input signup__field--margin" type="password" id="pw1" name"user_pw"/>
+        <label class="signup__label" for="pw2">Program of study.</label>
+        <input class="signup__input" type="password" id="pw2" name="user_pw"/><br>
+        <label class="signup__label" for="pw2">Year of Study</label>
+        <input class="signup__input" type="password" id="pw2" name="user_pw"/>
+      </div>
+    </fieldset>    
+
+    <div class="signup__field--margin signup__btn__margin">
+      <button class="signup__btn" type="submit">Submit</button>
+    </div>
+  </div>
+
+  <div class="signup__headfoot signup__headfoot--footer">
+    <div class="signup__headfoot__center-footer">
+      <input type="checkbox" id="TC" value="TC_accepted" name="company_TC"/>
+      <label class="signup__footer__label" for="TC">I agree to the <a href="#">Terms and Conditions</a></label>
+    </div>
+  </div>
+</form>
+</body>
+</html>
